@@ -6,7 +6,7 @@ gamecmd = input("Type 'play' or 'info':)
 while(gamecmd != "play"):
   if gamecmd == "info":
     print("Just type in a random guessed number between 1 and 8 and hope you get it right... that's all there is to it.")
-    gamecmd = input("Type 'play' or 'info':)
+  gamecmd = input("Type 'play' or 'info':)
 
 ####################
 ## GAME GOES HERE ##
