@@ -1,7 +1,6 @@
 from random import randint as rand
 from time import sleep as sleep
 
-
 def game():
     # Choose A Cave game menu
     print("Welcome to Choose A Cave!!! (... Or you die.)")
