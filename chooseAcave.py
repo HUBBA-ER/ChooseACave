@@ -5,14 +5,21 @@ def game():
     # Choose A Cave game menu
     print("Welcome to Choose A Cave!!! (... Or you die.)")
     name = input("Enter a name for the leaderboard: ")
-    print("To play the game, type 'play' to learn how to play, type 'info'")
-    gamecmd = input("Type 'play' or 'info':")
+    print("To play the game, type 'play' to learn how to play, type 'info' to see credits, type, well, you get it.")
+    gamecmd = input("Type 'play' or 'info' or 'credits':")
     while gamecmd != "play":
         print("Just type in a random guessed number between 1 and 8 and hope you get it right..."
               "that's all there is to it.")
         if gamecmd == "info":
             pass
         gamecmd = input("Type 'play' or 'info': ")
+        if gamecmd == "credits":
+            print("Created by Kabir Bhatia")
+            sleep(0.5)
+            print("Coding by Kabir Bhatia and Tripp Lyons")
+            sleep(0.5)
+            print("Special thanks to Tripp Lyons and Ronak Monga for helping bring this game to life!")
+            gamecmd = input("Type 'play' or 'info':")
 
     lives = 3
     score = 0
